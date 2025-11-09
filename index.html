@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solid Gig</title>
+
+  <!-- 😎 emoji favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>😎</text></svg>">
+
+  <!-- Font: JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Courier New', monospace;
+      background: #0d1117;
+      color: #d1d5db;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 3rem 1rem;
+      font-size: 1.1rem;
+    }
+    h1 {
+      font-family: 'JetBrains Mono', monospace;
+      color: #58a6ff;
+      font-size: 2.6rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.5px;
+      align-self: flex-start;
+    }
+    .subtitle {
+      color: #9ca3af;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      text-align: left;
+      align-self: flex-start;
+      margin-left: 2px;
+    }
+    .container {
+      max-width: 780px;
+      width: 100%;
+    }
+    pre {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 1.8rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 8px rgba(0,0,0,0.4);
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      line-height: 1.7;
+      font-size: 1.05rem;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    pre:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 12px rgba(88,166,255,0.2);
+    }
+    .project-title {
+      color: #ff7b72;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .tag {
+      display: inline-block;
+      margin-top: 0.25rem;
+      background: #238636;
+      color: white;
+      font-size: 0.9rem;
+      padding: 3px 10px;
+      border-radius: 4px;
+    }
+    .tag.inprogress { background: #c9a700; }
+    .tag.planning { background: #ff7b72; }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 3rem;
+      color: #6b7280;
+      font-size: 0.9rem;
+      border-top: 1px solid #30363d;
+      padding-top: 1rem;
+      text-align: center;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Solid Gig</h1>
+    <div class="subtitle">A media studio turning data into opportunities.</div>
+
+    <pre>
+<span class="project-title">CompoundFox.com 🦊</span>
+Let your money make money for you — The roadmap to financial freedom.
+<span class="tag">Launched</span>
+
+<a href="https://compoundfox.com" target="_blank">Visit CompoundFox →</a>
+    </pre>
+
+    <pre>
+<span class="project-title">NoBullSaaS.com ♉</span>
+We help grandpa and grandma understand SaaS. Also 5-year-olds and CXOs, and anyone pretending to be both.
+<span class="tag inprogress">Coming soon</span>
+
+<a href="https://nobullsaas.com" target="_blank">Visit NoBullSaaS →</a>
+    </pre>
+
+    <pre>
+<span class="project-title">HungryStack.com 🍜</span>
+The internet argues about food. We just show you what everyone actually agrees tastes good.
+<span class="tag planning">Planning</span>
+    </pre>
+
+    <footer>
+      Built with ✨ by CC Lee — Simple tools, clear data.<br>
+      📬 <a href="mailto:cc@solidgig.com">cc@solidgig.com</a><br>
+      © 2025 CC Lee
+    </footer>
+  </div>
+</body>
+</html>
